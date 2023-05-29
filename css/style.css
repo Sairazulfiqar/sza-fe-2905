@@ -1,9 +1,13 @@
-* {}
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 #Table {
     border: black 1px;
     background-color: aqua;
-    padding: left: 25px;
+    padding: left 25px;
+    
 
 }
 
@@ -12,6 +16,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    background-color: black;
 }
 
 button {
@@ -37,7 +42,7 @@ button {
 
 .gris {
     background-color: #A6A6A6;
-    color: white;
+    color:black;
 }
 
 .naranja {
@@ -67,3 +72,6 @@ button {
     border: black 1px;
 }
 
+::-webkit-input-placeholder {
+    color: white;
+}
