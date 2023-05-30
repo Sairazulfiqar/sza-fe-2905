@@ -61,7 +61,7 @@ function cleanInput() {
     }
 }
 
-function memoryplus {
+function memoryplus() {
     memory = memory + input.value;
     input.value = ''
 }
