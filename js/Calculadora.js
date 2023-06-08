@@ -61,7 +61,18 @@ function cleanInput() {
     }
 }
 
+function memoryclean(){
+    memory = 0;
+}
+
 function memoryplus() {
     memory = memory + input.value;
-    input.value = ''
+}
+
+function memoryminus() {
+    memory = memory - input.value;
+}
+
+function memoryresult() {
+    input.value = memory;
 }
