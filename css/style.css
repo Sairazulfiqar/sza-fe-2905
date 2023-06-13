@@ -1,77 +1,70 @@
 * {
     margin: 0px;
     padding: 0px;
-}
+  }
+  
+  button {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    margin: 2px;
+    font-size: 30px;
+    font-weight: 250;
+  }
 
-#Table {
-    border: black 1px;
-    background-color: aqua;
-    padding: left 25px;
-    
 
-}
-
-body {
+  .input{
+    border:none;
+    width: 250px;
+    height: 50px;
+    font-size: 50px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+  }
+  
+  .ceroButton {
+    width: 100%;
+    text-align: left;
+    padding-left: 25px;
+  }
+  
+  .lightButton {
+    background-color: #a6a6a6;
+    color: black;
+  }
+  
+  .darkButton {
+    background-color: #333333;
+    color: white;
+  }
+  
+  .acentButton {
+    background-color: #ff9501;
+    color: white;
+  }
+  
+  body {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     background-color: black;
-}
-
-button {
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    border: none ;
-    font-size: 30px;
-    font-weight: 250;
-}
-
-.input {
+  }
+  
+  .input {
     border: none;
+    width: 250px;
+    font-size: 50px;
     text-align: right;
     background-color: black;
-    width: 250px;
-    height: 50px;
-    font-size: 50px;
+    color: white;
     font-weight: 200;
+  }
+  
+  ::-webkit-input-placeholder {
     color: white;
-
-}
-
-.gris {
-    background-color: #A6A6A6;
-    color:black;
-}
-
-.naranja {
-    background-color: #FF9501;
-    color: white;
-}
-
-.dark {
-    background-color: #333;
-    color: white;
-
-}
-.ceroButton {
-    width: 100%;
-    text-align: left;
-    padding-left: 25px;
-    background-color: #333;
-    color: white;
-}
-
-.acentButton {
-    background-color: #FF9501;
-    color: white;
-}
-
-.tr {
-    border: black 1px;
-}
-
-::-webkit-input-placeholder {
-    color: white;
-}
+  }
+  
